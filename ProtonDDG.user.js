@@ -59,7 +59,6 @@ const ddg_cookie_input = `5=2; dcm=6; dcs=1; s=m; o=s; y=44475a; psb=-1; bj=1; b
 setCookies(makeCookieData(ddg_cookie_input));
 
 // All done, reload page for changes to take effect :)
-location.reload();
 
 
 window.addEventListener('load', function() {
