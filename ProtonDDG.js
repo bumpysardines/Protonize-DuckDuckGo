@@ -3,7 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      2025-07-25
 // @description  Give DuckDuckGo Proton branding
-// @author       You
+// @author       bumpysardines
+// @updateURL    https://github.com/bumpysardines/Protonize-DuckDuckGo/main/ProtonDDG.js
+// @downloadURL  https://github.com/bumpysardines/Protonize-DuckDuckGo/main/ProtonDDG.js
+// @match        *://www.duckduckgo.com/*
 // @include       http://duckduckgo.com/*
 // @include       https://duckduckgo.com/*
 // @include       http://*.duckduckgo.com/*
