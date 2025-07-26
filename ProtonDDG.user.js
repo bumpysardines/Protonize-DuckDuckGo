@@ -53,7 +53,7 @@ const setCookies = (ddg_json) => {
 }
 
 // Paste your cookie data here
-const ddg_cookie_input = `5=2; dcm=6; dcs=1; s=m; o=s; y=44475a; psb=-1; bj=1; be=0; bg=-1; u=1; ad=fr_FR; l=fr-fr 1=-1; aq=-1; ap=-1; ax=-1; ak=-1; ao=-1; au=-1; t=a; ae=d; a=a; 7=0e0d12; j=1b1632; 9=afa0ff; aa=9977ff; 8=fff; x=fff; 21=16141c; bc=1`;
+const ddg_cookie_input = `5=2; dcm=6; dcs=1; s=m; o=s; y=44475a; psb=-1; bj=1; be=0; bg=-1; u=1; 1=-1; aq=-1; ap=-1; ax=-1; ak=-1; ao=-1; au=-1; t=a; ae=d; a=a; 7=0e0d12; j=1b1632; 9=afa0ff; aa=9977ff; 8=fff; x=fff; 21=16141c; bc=1`;
 
 // Call set cookies, passing in formated cookie data
 setCookies(makeCookieData(ddg_cookie_input));
